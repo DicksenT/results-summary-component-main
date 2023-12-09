@@ -29,7 +29,7 @@ ul{
     align-items: center;
     justify-content: center;
     margin: 0;
-    height: 100vh;
+    height: 95vh;
 }
 .container{
     display: flex;
@@ -126,4 +126,24 @@ ul{
     margin-bottom: 12px;
     font-weight: 500;
     font-size: 18px;
+}
+.logo{
+    display: flex;
+    gap: 4px;
+}
+svg{
+    width: 18px;
+}
+@media (max-width: 620px) {
+    .container{
+        flex-direction: column;
+        height: 840px;
+        margin: 0 auto;
+        width: 600px;
+        justify-content: center;
+        align-items: center;
+    }
+    .body{
+        margin: 0;
+    }
 }
