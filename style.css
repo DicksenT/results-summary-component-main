@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+ul{
+    justify-content: center;
+}
+.df{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    background-color: whitesmoke;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+    height: 420px;
+}
+.first_half{
+    width: 50%;
+    padding: 12px;
+    background-color: blue;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+    font-weight: 500;
+}
+.circle{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 70px;
+    padding: 24px;
+    background-color: rgb(60, 60, 172);
+    margin: 12px 0;
+}
+.num{
+    font-weight: 900;
+    font-size: 48px;
+}
+.second_half{
+    padding: 24px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.score{
+    font-weight: 700;
+    color: black;
+}
+.blur{
+    opacity: 0.5;
+}
+.button{
+    margin-top: 24px;
+    padding: 12px 96px;
+    border-radius: 20px;
+    background-color:darkgray;
+    color: white;
+}
+.button:hover{
+    background-color: blue;
+    transition: 300ms;
+}
+.reaction{
+    color: red;
+    background-color: lightsalmon;
+    font-weight: 600;
+}
+.memory{
+    color: gold;
+    font-weight: 600;
+    background-color: lightyellow;
+}
+.verbal{
+    color: rgb(35, 235, 235);
+    font-weight: 600;
+    background-color: lightcyan;
+}
+.visual{
+    color: purple;
+    font-weight: 600;
+    background-color: rgb(243, 166, 243);
+}
+.para, .result{
+    text-align: center;
+    opacity: 0.9;
+    margin: 16px 0;
+    padding: 12px;
+}
+.great{
+    font-size: 28px;
+    font-weight: 500;
+}
+.summary{
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 18px;
+}
